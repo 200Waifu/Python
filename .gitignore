@@ -1,6 +1,3 @@
-# ----------------------
-# Python 기본
-# ----------------------
 __pycache__/
 *.py[cod]
 *.pyo
@@ -11,9 +8,6 @@ __pycache__/
 dist/
 build/
 
-# ----------------------
-# Conda 환경
-# ----------------------
 env/
 .condaenv/
 .venv/
@@ -22,31 +16,16 @@ ENV/
 pkgs/
 conda-meta/
 
-# ----------------------
-# Jupyter Notebook
-# ----------------------
 .ipynb_checkpoints
 *.ipynb~
 
-# ----------------------
-# VSCode
-# ----------------------
 .vscode/
 *.code-workspace
 
-# ----------------------
-# Streamlit
-# ----------------------
 .streamlit/
 
-# ----------------------
-# Flask
-# ----------------------
 instance/
 
-# ----------------------
-# TensorFlow / PyTorch / ML
-# ----------------------
 *.tfrecord
 checkpoints/
 logs/
@@ -56,9 +35,6 @@ saved_model/
 *.pth
 *.pt
 
-# ----------------------
-# OS/에디터 캐시 파일
-# ----------------------
 .DS_Store
 Thumbs.db
 *.swp
